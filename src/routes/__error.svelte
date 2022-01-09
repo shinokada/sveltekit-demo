@@ -14,3 +14,5 @@
 </script>
 
 <h1>{title}</h1>
+
+This file is in app/routes/__error.svelte.
