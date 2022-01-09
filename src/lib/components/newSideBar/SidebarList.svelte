@@ -1,14 +1,10 @@
 <script>
-	import { createEventDispatcher } from 'svelte';
-	const dispatch = createEventDispatcher();
+	import { open } from './store';
 
 	export let url;
 	export let name;
-
 	function toggleSide() {
-		dispatch('state', {
-			open: false
-		});
+		open.update((n) => (n = !n));
 	}
 </script>
 
