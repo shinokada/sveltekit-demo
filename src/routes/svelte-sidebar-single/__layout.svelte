@@ -1,5 +1,5 @@
 <script>
-	import Sidebar from '$lib/components/svelte-sidebar/Sidebar.svelte';
+	import { Sidebar } from '@codewithshin/svelte-sidebar';
 	let lists = [
 		{ url: 'sidebar-module/item1', name: 'Item 1' },
 		{ url: 'sidebar-module/item2', name: 'Item 2' },

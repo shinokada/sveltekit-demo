@@ -1,7 +1,7 @@
 <script>
 	import '../../app.css';
-	import Navbar from '$lib/components/sidebar/Navbar.svelte';
-	import Sidebar from '$lib/components/sidebar/Sidebar.svelte';
+	import Navbar from '$lib/sidebar/Navbar.svelte';
+	import Sidebar from '$lib/sidebar/Sidebar.svelte';
 	let open = false;
 	let siteName = 'Svelte Demo';
 </script>
