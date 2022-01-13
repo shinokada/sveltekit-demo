@@ -1,8 +1,10 @@
 <ul mx-auto my-auto>
-	<li><a href="sidebar1">Sidebar 1 example</a></li>
-	<li><a href="sidebar2">Sidebar 2 example. Using Svelte/Stores</a></li>
-	<li><a href="svelte-sidebar-single">Svelte-sidebar package Single Menu example</a></li>
+	<li><a href="svelte-sidebar-single">Svelte-sidebar Sidebar Component Default</a></li>
+	<li><a href="svelte-sidebar-single2">Svelte-sidebar Sidebar Component Styled</a></li>
 	<li>
-		<a href="svelte-sidebar-multiple">Svelte-sidebar package Multiple-menu Sidebar example</a>
+		<a href="svelte-sidebar-multiple">Svelte-sidebar Multiple-menu Sidebar Default</a>
+	</li>
+	<li>
+		<a href="svelte-sidebar-multiple2">Svelte-sidebar Multiple-menu Sidebar Default</a>
 	</li>
 </ul>
