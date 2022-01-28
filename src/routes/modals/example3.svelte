@@ -1,5 +1,11 @@
 <script>
-	import { SmallModal, MediumModal, LargeModal, ExtraLargeModal } from '@codewithshin/svelte-flow';
+	import {
+		SmallModal,
+		MediumModal,
+		LargeModal,
+		ExtraLargeModal,
+		ModalButton
+	} from '@codewithshin/svelte-flow';
 
 	// small
 	let smallModalId = 'small-modal';
